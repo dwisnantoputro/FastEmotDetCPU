@@ -1,0 +1,13 @@
+How to run and install CPU detector
+
+1. Create conda environment with python=3.6
+2. How to install libraries (Keras-CPU and Pytorch-CPU), it can run in terminal: ./install-cpu.sh
+
+3. It operates with webcam, run in terminal: 
+	python realtime_cam.py
+
+optional:
+- compile nms detector:
+	pip install cython
+	./make.sh
+
