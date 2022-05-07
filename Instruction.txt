@@ -1,0 +1,26 @@
+How to run the code:
+
+1. Create conda environment with python=3.6
+2. How to install libraries (Keras and Tensorflow), it can run in terminal: ./install.sh
+
+3. Perpare dataset
+	-Download dataset (zip file):
+         FER-2013:
+		https://drive.google.com/file/d/12CFRopG5EK3YDxo5tKveER5J4YXH5ixS/view?usp=sharing
+         CK+:
+		https://drive.google.com/file/d/1NsyizY4BiVVvtCwRNle5HO2ZBS3a3fEY/view?usp=sharing
+         JAFFE:
+		https://drive.google.com/file/d/1Xnw-VjE28sqiXVF0Cqc2l3b08V5JA6Vn/view?usp=sharing
+         KDEF:
+		https://drive.google.com/file/d/1CpFXpGOMBw9_Kzjh-Nnnptj1inl0TFpd/view?usp=sharing
+
+	-Copy the zip files and paste to Datasets folder
+	-Extract all zip files
+
+4. Evaluate on FER-2013 dataset
+	run in terminal: FER2013test.py
+
+5. Evaluate on CK+, JAFFE, and KDEF dataset
+	run in terminal: jupyter lab
+	and run each file : CKtest.ipynb, JAFFEtest.ipynb and KDEFtest.ipynb
+
